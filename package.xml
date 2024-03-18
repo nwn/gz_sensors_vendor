@@ -7,12 +7,13 @@
   <description>Gazebo Sensors : Sensor models for simulation</description>
   <maintainer email="addisuzt@intrinsic.ai">Addisu Z. Taddese</maintainer>
   <license>Apache License 2.0</license>
-  <url type="website">https://github.com/gazebosim/gz-fuel-tools</url>
+  <url type="website">https://github.com/gazebosim/gz-sensors</url>
 
   <buildtool_depend>ament_cmake_core</buildtool_depend>
   <buildtool_depend>ament_cmake_test</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
+  <test_depend>xvfb</test_depend>
   <depend>gz_cmake_vendor</depend>
   <depend>gz_common_vendor</depend>
   <depend>gz_math_vendor</depend>
@@ -25,7 +26,6 @@
   <!-- Depend on the package we are vendoring to allow building it from source -->
   <build_depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-sensors8</build_depend>
 
-  <test_depend>xvfb</test_depend>
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>
   <test_depend>ament_cmake_xmllint</test_depend>
