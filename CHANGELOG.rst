@@ -2,8 +2,8 @@
 Changelog for package gz_sensors_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2024-05-29)
+------------------
 * Update underlying version to 8.1.0
 * Contributors: Addisu Z. Taddese
 
